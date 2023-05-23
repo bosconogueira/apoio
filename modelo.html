@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
+</head>
+<body>
+    <h1>🧾 APAC: Quantidade de sessões autorizadas 🧾</h1>
+    <div class="container">
+        <p>Digite <strong>mês e ano de início do tratamento.</strong></p>
+        <p>Ex.: Data de início: 03/11/2022 :</p>
+        <p>Digite: 11/2022.</p>
+        <label for="dataInicio"></label>
+        (MM/AAAA): <input type="text" id="dataInicio" maxlength="7">
+        <button id="calcularBtn">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+    
+    
 
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <h1> 💉 Calculadora de Transfusão sanguínea 💉</h1>
+    <form id="dateForm">
+        <label for="startDate">Data de Início:</label>
+        <input type="text" id="startDate" placeholder="DD/MMM/AAAA" />
+        <button type="submit">Verificar</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+    <p id="horaAtual"></p>
+    <p id="horasFaltantes"></p>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .page-container {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  h1 {
+    text-align:left;
+    color: #333;
+  }
+
+    
+  form {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 150px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
